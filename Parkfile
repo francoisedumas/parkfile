@@ -8,6 +8,9 @@ Parklife.application.configure do |config|
   # Or for Sinatra modular style:
   # config.app = App
 
+  # Serve trailing slash-less URLs from GitHub Pages.
+  config.nested_index = false
+
   # See configuration options here:
   # https://github.com/benpickles/parklife#configuration
 end
